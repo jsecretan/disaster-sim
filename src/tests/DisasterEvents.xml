@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DisasterConfiguration>
+    <disasterEvents>
+        <disasterEventData name="FOOD_WATER_ICE_AVAILABLE" averageDuration="4" devDuration="1" averageDiameter="100" devDiameter="50" numberOfEvents="5"/>
+        <disasterEventData name="FUEL_AVAILABLE" averageDuration="8" devDuration="2" averageDiameter="30" devDiameter="20" numberOfEvents="5"/>
+        <disasterEventData name="ELECTRICAL_ACCIDENT" averageDuration="24" devDuration="10" averageDiameter="10" devDiameter="5" numberOfEvents="5"/>
+    </disasterEvents>
+</DisasterConfiguration>

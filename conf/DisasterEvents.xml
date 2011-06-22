@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DisasterConfiguration>
+<!-- Time is given in minutes, diameter is given in meters -->
+<!-- Types of events that can be observed
+    IDEA: eventually, we may automatically create these from clusters of tags.
+    I think there is already some work going on in that space.
+    The system would eventually be better at mining it's own inputs,
+    but until then, it needs some events to start with.
+-->
+    <disasterEvents>
+        <disasterEventData name="FOOD_WATER_ICE_AVAILABLE" averageDuration="240" devDuration="60" averageDiameter="100" devDiameter="50" numberOfEvents="5"/>
+        <disasterEventData name="FUEL_AVAILABLE" averageDuration="480" devDuration="120" averageDiameter="30" devDiameter="20" numberOfEvents="5"/>
+        <disasterEventData name="ELECTRICAL_ACCIDENT" averageDuration="1440" devDuration="600" averageDiameter="10" devDiameter="5" numberOfEvents="5"/>
+        <!--<disasterEventData name="TORNADO" averageDuration="0.5" devDuration="0.1" averageDiameter="200" devDiameter="50" numberOfEvents="1"/>-->
+    </disasterEvents>
+</DisasterConfiguration>
